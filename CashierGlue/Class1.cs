@@ -2,7 +2,5 @@
 
 namespace CashierGlue
 {
-    public class Class1
-    {
-    }
+    enum ActionType { ADD_APP_OVERRIDE, ADD_FEE, ADD_APPLICATION_FEE, ADD_FUTURE_PAYMENT, ADD_NOTE, ADD_TAG, OVERRIDE_ADDRESS_VALIDATE, OVERRIDE_SHIPPING, OVERRIDE_TAX,};
 }
